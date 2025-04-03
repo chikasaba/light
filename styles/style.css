@@ -1,12 +1,16 @@
 html{
     font-size: 1rem;
 }
+
 body {
     margin: 0;
     background-color:#D6C4B2;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding:1px 5%;
     background-color: #4A7C59;
     color: #EDECE8;
@@ -17,6 +21,15 @@ main {
     font-size: 1.25em;
     font-weight: bolder;
     color: #4A3628;
+}
+
+.full-version-link {
+    color: white;
+    font-weight: bold;
+}
+
+.full-version-link:hover {
+    color: #0000EE;
 }
 
 @media (max-width: 800px) {
